@@ -12,5 +12,5 @@
   $ mysqldump -u root -p magento | mysql -u backup -ppassword charcoalsand;
 
 ## Dump database
-  $ mysqldump -u root -p mock > backup.sql;
+  $ mysqldump -u root -ppassword mock > backup-01-10-2016-11-00.sql;
 

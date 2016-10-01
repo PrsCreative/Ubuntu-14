@@ -13,4 +13,8 @@
 
 ## Dump database
   $ mysqldump -u root -ppassword mock > backup-01-10-2016-11-00.sql;
+ 
+## Git 
+  $ sudo apt-get install git
+  $ sudo apt-get install git-gui
 

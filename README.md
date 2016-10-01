@@ -17,4 +17,7 @@
 ## Git 
   $ sudo apt-get install git
   $ sudo apt-get install git-gui
+  
+## Install Photoshop
+  $ sudo apt-get install wine
 

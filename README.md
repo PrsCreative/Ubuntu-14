@@ -35,3 +35,6 @@
 
 ## Install PHP Module Simple
   $ sudo apt-get install php5.6-mbstring php5.6-mcrypt php5.6-mysql php5.6-xml
+
+## Remove PHP 5 All package
+  $ sudo apt-get purge 'php5*' 

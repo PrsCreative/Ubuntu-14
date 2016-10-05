@@ -21,3 +21,11 @@
 ## Install Photoshop
   $ sudo apt-get install wine
 
+## Downgrand PHP 7 to 5.6
+  $ sudo apt-get purge `dpkg -l | grep php| awk '{print $2}' |tr "\n" " "`
+  $ sudo add-apt-repository ppa:ondrej/php
+  $ sudo apt-get update
+  $ sudo apt-get install php5.6
+
+## Install PHP Module Simple
+  $ sudo apt-get install php5.6-mbstring php5.6-mcrypt php5.6-mysql php5.6-xml

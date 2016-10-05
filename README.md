@@ -24,17 +24,17 @@
 ## Install Photoshop
   $ sudo apt-get install wine
 
-## Downgrand PHP 7 to 5.6
+## Downgrand PHP 7 to 5.5
   $ sudo apt-get purge `dpkg -l | grep php| awk '{print $2}' |tr "\n" " "`
   
   $ sudo add-apt-repository ppa:ondrej/php
   
   $ sudo apt-get update
   
-  $ sudo apt-get install php5.6
+  $ sudo apt-get install php5.5
 
 ## Install PHP Module Simple
-  $ sudo apt-get install php5.6-mbstring php5.6-mcrypt php5.6-mysql php5.6-xml
+  $ sudo apt-get install php5.5-mbstring php5.5-mcrypt php5.5-mysql php5.5-xml
 
 ## Remove PHP 5 All package
   $ sudo apt-get purge 'php5*' 

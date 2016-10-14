@@ -38,3 +38,12 @@
 
 ## Remove PHP 5 All package
   $ sudo apt-get purge 'php5*' 
+  
+## Mysql Dump DB from SSH
+  $ mysql_upgrade -u root -p --force
+  
+  $ service mysql restart
+  
+  $ mysqldump -uroot -p yourdbname > /var/dbbackup/backup.sql
+  
+  

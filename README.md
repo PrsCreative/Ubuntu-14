@@ -44,6 +44,6 @@
   
   $ service mysql restart
   
-  $ mysqldump -uroot -p yourdbname > /var/dbbackup/backup.sql
+  $ mysqldump -u root -p yourdbname > /var/dbbackup/backup.sql
   
   
